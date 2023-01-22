@@ -80,7 +80,7 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
-## How to use
+## How to use with curl
 
 ### Login 
 `
@@ -93,6 +93,10 @@ curl -X POST http://127.0.0.1:3001/auth/login/ -H "Content-Type: application/jso
 `
 curl http://127.0.0.1:3001/user -H "Accept: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpveWZ1bCIsImlkIjoiMTAwMDEiLCJpYXQiOjE2NzQ0MTQzNzQsImV4cCI6MTY3NDQxNTI3NH0._-ywY3GqsRfL3J3NytuUSZfnmQUbomRFIqpjVFsTXg0"
 `
+
+## How to use with Postman
+
+*There is a folder **postman_collection** that contains the collection that you can import in postman*
 
 ## Support
 
